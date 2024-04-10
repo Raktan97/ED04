@@ -17,10 +17,10 @@ public class Main {
         }
 
         try {
-            System.out.println("Solicitar actualización de bono");
-            cesta.ActualizarBono(100);
+            System.out.println("Modificacion 1");
+            cesta.ActualizarBono(-50);
         } catch (Exception e) {
-            System.out.println("Error al recargar");
+            System.out.println("Fallo");
         }
         return cesta;
     }
