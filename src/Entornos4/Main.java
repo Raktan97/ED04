@@ -21,6 +21,7 @@ public class Main {
             cesta.ActualizarBono(-50);
         } catch (Exception e) {
             System.out.println("Fallo");
+            System.out.println("A ocurrir un error, contacte con soporte");
         }
         return cesta;
     }
